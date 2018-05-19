@@ -1,9 +1,14 @@
 <?php
     function getDatabaseConnection() {
-        $host = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "Recipes"; 
+        // $host = "localhost";
+        // $username = "root";
+        // $password = "";
+        // $dbname = "Recipes"; 
+        //mysql://bcd5ee89f4f9c2:75197864@us-cdbr-iron-east-04.cleardb.net/heroku_962744be0fd6690?reconnect=true
+        $host="us-cdbr-iron-east-04.cleardb.net";
+        $username = "bcd5ee89f4f9c2";
+        $password = "75197864";
+        $dbname = "heroku_962744be0fd6690";
         
         // Create connection
         $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
