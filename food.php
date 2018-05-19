@@ -15,7 +15,7 @@
         <link href="style.css" rel="stylesheet" type="text/css" />
         <title>Drinkepedia</title>
     </head>
-    <body>
+    <body background="http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/white-wallpapers-8.jpg">
        <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <div class="navbar-header">
